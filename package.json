@@ -1,0 +1,23 @@
+{
+  "name": "relpi-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
