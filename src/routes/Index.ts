@@ -9,7 +9,7 @@ const index: Router = Router();
 index.post("/audio", upload.single('audio'),(req: Request, res: Response): void => {
     if(!req.file){
         res.status(400).json({
-            erro: "Arquivo inexistente"
+            status: "Arquivo inexistente"
         });
         return;
     }
