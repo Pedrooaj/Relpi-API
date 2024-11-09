@@ -1,5 +1,5 @@
-node_modules/*
-uploads/*
-.wwebjs_auth/*
-.wwebjs_cache/*
+node_modules
+uploads
+.wwebjs_cache
+.wwebjs_auth
 .env

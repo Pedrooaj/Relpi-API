@@ -3,9 +3,9 @@ import Bot from "./Bot";
 
 const main = async () => {
     // Instancia do bot na aplicação
-    //const bot = new Bot();
+    const bot = new Bot();
     try {
-        //await bot.init();
+        await bot.init();
         App.listen("3001", (error?: Error) => {
             if (!error) {
                 console.log("Servidor rodando na porta 3001");
