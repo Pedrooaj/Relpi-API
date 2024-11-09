@@ -1,3 +1,2 @@
-2024/11/09-15:42:31.114 57fd6 Reusing MANIFEST /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Service Worker/Database/MANIFEST-000001
-2024/11/09-15:42:31.114 57fd6 Recovering log #3
-2024/11/09-15:42:31.114 57fd6 Reusing old log /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Service Worker/Database/000003.log 
+2024/11/09-15:49:10.238 5858c Creating DB /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Service Worker/Database since it was missing.
+2024/11/09-15:49:10.244 5858c Reusing MANIFEST /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Service Worker/Database/MANIFEST-000001
