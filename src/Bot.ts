@@ -3,7 +3,7 @@ import qrcode from "qrcode-terminal";
 
 
 const saudados = new Set();
-
+// Aplicação do bot com whatsapp web js
 class Bot {
     constructor(
         public client = new Client({
