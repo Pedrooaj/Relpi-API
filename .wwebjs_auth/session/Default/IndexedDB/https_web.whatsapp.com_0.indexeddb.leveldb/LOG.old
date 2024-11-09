@@ -1,0 +1,24 @@
+2024/11/09-15:42:22.056 57eb8 Reusing MANIFEST /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/09-15:42:22.056 57eb8 Recovering log #458
+2024/11/09-15:42:22.062 57eb8 Reusing old log /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000458.log 
+2024/11/09-15:42:23.478 57ea5 Level-0 table #464: started
+2024/11/09-15:42:23.481 57ea5 Level-0 table #464: 99191 bytes OK
+2024/11/09-15:42:23.482 57ea5 Delete type=0 #458
+2024/11/09-15:42:23.482 57eab Manual compaction at level-0 from '\x00\x94\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x95\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/09-15:42:23.483 57eab Level-0 table #466: started
+2024/11/09-15:42:23.484 57eab Level-0 table #466: 447 bytes OK
+2024/11/09-15:42:23.485 57eab Delete type=0 #463
+2024/11/09-15:42:23.486 57eab Manual compaction at level-0 from '\x00\x95\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x96\x00\x00\x00' @ 0 : 0; will stop at '\x00\x95\x00\x00\x05' @ 426111 : 0
+2024/11/09-15:42:23.486 57eab Compacting 1@0 + 1@1 files
+2024/11/09-15:42:23.489 57eab Generated table #467@0: 2255 keys, 51271 bytes
+2024/11/09-15:42:23.489 57eab Compacted 1@0 + 1@1 files => 51271 bytes
+2024/11/09-15:42:23.490 57eab compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/09-15:42:23.490 57eab Delete type=2 #466
+2024/11/09-15:42:23.490 57eab Manual compaction at level-0 from '\x00\x95\x00\x00\x05' @ 426111 : 0 .. '\x00\x96\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/09-15:42:23.521 57ea6 Compacting 1@1 + 1@2 files
+2024/11/09-15:42:23.553 57ea6 Generated table #468@1: 53779 keys, 1853149 bytes
+2024/11/09-15:42:23.553 57ea6 Compacted 1@1 + 1@2 files => 1853149 bytes
+2024/11/09-15:42:23.555 57ea6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/09-15:42:23.555 57ea6 Delete type=2 #464
+2024/11/09-15:42:23.555 57ea6 Delete type=2 #467
+2024/11/09-15:42:23.555 57ea6 Delete type=2 #461

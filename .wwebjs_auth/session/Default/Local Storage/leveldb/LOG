@@ -1,0 +1,14 @@
+2024/11/09-15:42:31.098 57fd6 Reusing MANIFEST /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Local Storage/leveldb/MANIFEST-000001
+2024/11/09-15:42:31.098 57fd6 Recovering log #10
+2024/11/09-15:42:31.099 57fd6 Reusing old log /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Local Storage/leveldb/000010.log 
+2024/11/09-15:43:31.367 57fd3 Level-0 table #13: started
+2024/11/09-15:43:31.372 57fd3 Level-0 table #13: 15689 bytes OK
+2024/11/09-15:43:31.374 57fd3 Delete type=0 #10
+2024/11/09-15:43:31.374 57fd3 Compacting 4@0 + 0@1 files
+2024/11/09-15:43:31.376 57fd3 Generated table #14@0: 69 keys, 5929 bytes
+2024/11/09-15:43:31.376 57fd3 Compacted 4@0 + 0@1 files => 5929 bytes
+2024/11/09-15:43:31.377 57fd3 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/11/09-15:43:31.378 57fd3 Delete type=2 #3
+2024/11/09-15:43:31.378 57fd3 Delete type=2 #9
+2024/11/09-15:43:31.378 57fd3 Delete type=2 #13
+2024/11/09-15:43:31.378 57fd3 Delete type=2 #6
