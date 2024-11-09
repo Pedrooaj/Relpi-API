@@ -1,16 +1,17 @@
 import express from "express";
-import { Router } from "express";
-import { globalMiddleware } from "./middlewares/globalMiddleware";
 import index from "./routes/Index";
+import authRoute from "./routes/Auth";
+
 // Aplicação da api Express
 class App{
     constructor(public app: express.Application = express()){
-        this.routes();
         this.middlewares();
+        this.routes();
     }
 
     routes(){
         this.app.use("/" ,index);
+        this.app.use("/auth", authRoute);
     }
 
     middlewares(){

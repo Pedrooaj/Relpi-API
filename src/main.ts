@@ -2,17 +2,15 @@ import App from "./App";
 import Bot from "./Bot";
 
 const main = async () => {
-    const bot = new Bot();
+    // Instancia do bot na aplicação
+    //const bot = new Bot();
     try {
-        bot.init();
-        
-
+        //await bot.init();
         App.listen("3001", (error?: Error) => {
             if (!error) {
-                console.log("Servidor rodando na porta 3000");
-
-            } else {
-                console.log("Aguardando conexão do Bot no Whatsapp!");
+                console.log("Servidor rodando na porta 3001");
+            }else{
+                console.log("Erro ao inicializar na porta 3001");
             }
         });
     } catch (error) {

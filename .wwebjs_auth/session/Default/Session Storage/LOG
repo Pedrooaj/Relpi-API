@@ -1,2 +1,3 @@
-2024/11/09-15:49:09.558 5857e Creating DB /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Session Storage since it was missing.
-2024/11/09-15:49:09.568 5857e Reusing MANIFEST /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Session Storage/MANIFEST-000001
+2024/11/09-16:27:39.151 5b5d4 Reusing MANIFEST /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Session Storage/MANIFEST-000001
+2024/11/09-16:27:39.152 5b5d4 Recovering log #3
+2024/11/09-16:27:39.152 5b5d4 Reusing old log /home/pedrooaj/Área de trabalho/Relpi API/.wwebjs_auth/session/Default/Session Storage/000003.log 
