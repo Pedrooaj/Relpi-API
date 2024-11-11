@@ -3,7 +3,10 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import database from "../database/databaseConfig";
 import dotenv from "dotenv";
+import { AuthRequest } from "../interfaces/AuthRequest";
 dotenv.config();
+
+
 const jsonwebtokenInfo = {
     time: process.env.JWT_TIME as string,
     secret: process.env.JWT_SECRET as string
@@ -18,15 +21,16 @@ class AuthController {
 
         try {
             const registrar = await database.from('Auth').insert({ nome, password: hashedPassword });
-
             res.json({
                 status: registrar.statusText
             });
+            return;
 
         } catch (error) {
             res.json({
                 status: "Erro ao cadastrar usuário"
             });
+            return;
 
         }
 
@@ -50,13 +54,19 @@ class AuthController {
                     status: "Senha incorreta"
                 })
             }
+            return;
 
         } catch (error) {
             res.json({
                 status: "Erro ao efetuar login"
-            })
+            });
+            return;
         }
+    }
 
+    public verify(req: AuthRequest, res: Response) {
+        res.sendStatus(200);
+        return;
     }
 }
 

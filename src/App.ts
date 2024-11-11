@@ -8,7 +8,6 @@ class App{
         this.middlewares();
         this.routes();
     }
-
     routes(){
         this.app.use("/" ,index);
         this.app.use("/auth", authRoute);
